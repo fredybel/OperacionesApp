@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OperacionesApp.Pages.AreaDelRectangulo"
              Title="AreaDelRectangulo">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Ingrese la base:"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
